@@ -1,0 +1,88 @@
+body{
+	font-family: serif;
+	background-color: grey;
+}
+
+#calc{
+	width: 395px;
+	height: 630px;
+	background-color: black;
+	margin: 0 auto;   /*Centers it*/
+	top: 100px;       /*Works after setting the position relative*/
+	position: relative;
+}
+
+#result{
+	height: 150px;
+}
+
+#keys{
+	height: 480px;
+}
+
+#top_history{
+	text-align: right;
+	height: 30px;
+	margin: 0 22px;
+	padding-top: 20px;
+	color: #DCDCDC;
+	font-size: 20px;
+}
+
+#final_result{
+	text-align: right;
+	height: 55px;
+	color: white;
+	margin: 25px 20px;
+	font-size: 60px;
+}
+
+.operator, .operator2, .number, .empty{
+	width: 60px;
+	height: 60px;
+	margin: 19px;
+	float: left;
+	border-radius: 50%;    /*For the round buttons*/
+	border-width: 0;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.empty{
+	background-color: black;
+}
+
+.number0 {
+	width: 160px;
+	height: 60px;
+	margin: 19px 20px;
+
+	float: left;
+	border-radius: 10%;    /*For the round buttons*/
+	border-width: 0;
+	font-weight: bold;
+	font-size: 23px;
+}
+
+.empty0{
+	width: 55px;
+	height: 60px;
+	margin: 19px;
+	float: left;
+	background-color: black;
+	/*border-radius: 50%;    /*For the round buttons*/
+	border-width: 0;
+	f/*ont-weight: bold;
+	font-size: 23px;*/
+}
+
+.operator2{
+	background-color: orange;
+	color: white;
+	font-size: 27px;
+}
+
+.number, .number0{
+	color: white;
+	background-color: grey;
+}
